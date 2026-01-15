@@ -135,22 +135,7 @@ L'application propose différents tableaux de bord selon les rôles :
 - **Années académiques** : Gestion des périodes scolaires
 - **Types de documents** : Configuration des documents requis
 
-### 🏫 7. Vie Scolaire
-**📂 Fichiers :** `app/[lang]/(dashboard)/vie_scolaire/`
 
-- **Suivi quotidien** : Gestion des présences/absences
-- **Discipline** : Gestion des incidents et sanctions
-- **Activités parascolaires** : Organisation d'événements
-- **Communication** : Messagerie interne
-
-### 🛠️ 8. Outils et Utilitaires
-**📂 Fichiers :** `components/ui/`, `lib/`
-
-- **Calendrier intégré** : Visualisation des événements
-- **Cartes interactives** : Géolocalisation (élèves, établissements)
-- **Génération de rapports** : Exports PDF/Excel
-- **Notifications** : Système de notifications en temps réel
-- **Mode hors ligne** : Fonctionnalités offline avec IndexedDB
 
 ### 🔧 9. Debug et Maintenance
 **📂 Fichiers :** `app/[lang]/(dashboard)/debug/page.tsx`, `app/[lang]/(dashboard)/maintenance/page.tsx`
@@ -290,10 +275,11 @@ export default function Page() {
 ### 👨‍🏫 Workflow de Saisie des Notes
 ```
 1. 📚 Sélection classe/matière → 2. 📝 Saisie notes → 3. 💾 Sauvegarde →
-4. 📊 Calcul moyennes → 5. 📋 Génération bulletins
+
 ```
 
 ## 🚀 Recommandations
 1. **Priorité haute** : Migrer les modules avec données mockées vers des APIs réelles
 2. **Priorité moyenne** : Améliorer les interfaces des modules existants
+
 3. **Priorité basse** : Ajouter de nouvelles fonctionnalités aux modules core
